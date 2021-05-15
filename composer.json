@@ -1,12 +1,12 @@
 {
-    "name": "mikacaldera/woocommerce-sage-10",
+    "name": "riccardomel/woocommerce-sage-10",
     "description": "WooCommerce integration for Sage 10",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mika Caldera",
-            "email": "mika.caldera@gmail.com"
+            "name": "Riccardo Mel",
+            "email": "info@riccardomel.com"
         }
     ],
     "autoload": {
