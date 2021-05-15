@@ -12,23 +12,15 @@ cd wp-content/themes/your-sage-theme-folder
 open composer.json and add:  
 
 ```bash
- "repositories": [
+  "repositories": [
     {
-      "type": "package",
-      "package": {
-        "name": "riccardomel/sage-10-woocommerce",
-        "version": "master",
-        "source": {
-          "url": "https://github.com/riccardomel/sage-10-woocommerce.git",
-          "type": "git",
-          "reference": "master"
-        }
-      }
+      "type": "vcs",
+      "url": "https://github.com/riccardomel/woocommerce-sage-10"
     }
   ],
   "require": {
     ... OTHER  REQUIRE HERE ...
-    "riccardomel/sage-10-woocommerce-fix": "master"
+     "riccardomel/woocommerce-sage-10": "1.0.0"
   },
 ```
 then: 
